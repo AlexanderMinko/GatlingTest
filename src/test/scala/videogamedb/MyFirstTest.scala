@@ -6,7 +6,7 @@ import io.gatling.http.Predef._
 class MyFirstTest extends Simulation {
 
   //1. Http Config
-  val httpProtocol = http.baseUrl("http://localhost:8093/")
+  val httpProtocol = http.baseUrl("http://127.0.0.1:8093/")
     .acceptHeader("application/json")
 
   //2. Scenario Definition
